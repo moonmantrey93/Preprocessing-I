@@ -155,7 +155,7 @@ td {
 }
 h2,
 h1 {
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: underline;
 }
 #italic {
@@ -170,6 +170,7 @@ img {
 }
 .container {
   margin: auto;
+  width: 800;
 }
 .nav-container ul {
   display: flex;
@@ -194,17 +195,46 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 6px;
 }
 .skills {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: lightgrey;
+}
+.skills .table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.skills .table ul li {
+  border: 1px solid black;
+  align-items: center;
+}
+.skills .goals {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
 }
 .work-history {
   display: flex;
   align-content: center;
 }
-.work-history .table {
+.work-history table {
   background-color: lightgrey;
+  margin: auto;
+}
+.footer {
+  display: flex;
+  align-content: center;
+  background-color: lightgrey;
+  margin-top: 25px;
+}
+.footer p {
+  margin: auto;
+  height: 45px;
+  align-self: baseline;
 }
