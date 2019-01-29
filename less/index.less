@@ -79,7 +79,7 @@ th, td {
 }
 
 h2, h1 {
-	font-size: 18px;
+	font-size: 20px;
 	text-decoration: underline;
 }
 
@@ -104,6 +104,7 @@ img {
 //navigation Design
 .container {
 	margin: auto;
+	width: 800;
 }
 
 .nav-container ul {
@@ -129,6 +130,7 @@ img {
 		background-color: grey;
 
 		.left{
+
 			img {
 				padding: 15px;
 			}
@@ -136,20 +138,43 @@ img {
 		.right {
 
 
-
 			.title{
 			display: flex;
 			align-items: center;
 			flex-direction: column;
+			margin-bottom: 6px;
 			}
 		}
 	}
 
 	.skills {
 		display: flex;
-		justify-content: center;
-		align-items: center;
-		background-color: lightgrey
+		flex-direction: row;
+		justify-content: space-around;
+		background-color: lightgrey;
+
+		.table {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 50%;
+
+			ul li {
+				border: 1px solid black;
+				align-items: center;
+			}
+		}
+
+		.goals {
+			display: flex;
+			flex-direction: column;
+			width: 50%;
+			align-items: center;
+
+			h2 {
+
+			}
+		}
 
 	}
 
@@ -157,11 +182,21 @@ img {
 		display: flex;
 		align-content: center;
 
-		.table {
+		table {
 			background-color: lightgrey;
+			margin: auto;
 		}
 	}
 
 	.footer {
+		display: flex;
+		align-content: center;
+		background-color: lightgrey;
+		margin-top: 25px;
 
+		p {
+			margin: auto;
+			height: 45px;
+			align-self: baseline;
+		}
 	}
