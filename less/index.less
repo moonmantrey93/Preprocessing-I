@@ -57,6 +57,10 @@ html, body {
     height: 100%;
 }
 
+h1, h2, h3 {
+  margin: 15px 0;
+}
+
 // Table Style
 
 table, th, td {
@@ -70,6 +74,10 @@ th, td {
 
 // Titles and font styling
 
+.container {
+	margin: auto 0;
+}
+
 h2, h1 {
 	font-size: 18px;
 	text-decoration: underline;
@@ -79,19 +87,81 @@ h2, h1 {
 	font-style: italic;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+
+
+}
+
 img {
 	width: 250px;
 }
 //variables
 
 
+
 //navigation Design
+.container {
+	margin: auto;
+}
+
 .nav-container ul {
 	display: flex;
 	justify-content:center;
 	flex-direction: row;
+	background-color: lightblue;
 
 	li {
 		margin: 10px 5px;
+
+		}
+
 	}
-}
+
+
+
+	.intro {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		background-color: grey;
+
+		.left{
+			img {
+				padding: 15px;
+			}
+		}
+		.right {
+
+
+
+			.title{
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			}
+		}
+	}
+
+	.skills {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: lightgrey
+
+	}
+
+	.work-history {
+		display: flex;
+		align-content: center;
+
+		.table {
+			background-color: lightgrey;
+		}
+	}
+
+	.footer {
+
+	}
