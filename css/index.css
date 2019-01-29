@@ -134,6 +134,11 @@ html,
 body {
   height: 100%;
 }
+h1,
+h2,
+h3 {
+  margin: 15px 0;
+}
 table,
 th,
 td {
@@ -145,6 +150,9 @@ td {
   padding: 5px;
   text-align: left;
 }
+.container {
+  margin: auto 0;
+}
 h2,
 h1 {
   font-size: 18px;
@@ -153,14 +161,50 @@ h1 {
 #italic {
   font-style: italic;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 img {
   width: 250px;
+}
+.container {
+  margin: auto;
 }
 .nav-container ul {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  background-color: lightblue;
 }
 .nav-container ul li {
   margin: 10px 5px;
+}
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: grey;
+}
+.intro .left img {
+  padding: 15px;
+}
+.intro .right .title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+}
+.work-history {
+  display: flex;
+  align-content: center;
+}
+.work-history .table {
+  background-color: lightgrey;
 }
